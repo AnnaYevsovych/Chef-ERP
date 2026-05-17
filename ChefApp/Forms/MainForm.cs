@@ -47,7 +47,7 @@ namespace ChefApp.Forms
             btnProducts.Click += (s, e) => new ProductForm().ShowDialog();
             btnRecipes.Click  += (s, e) => new RecipeForm().ShowDialog();
             btnMenu.Click     += (s, e) => new MenuForm().ShowDialog();
-            btnInvoices.Click += (s, e) => MessageBox.Show("Буде в Етапі 5", "Незабаром");
+            btnInvoices.Click += (s, e) => new InvoiceForm().ShowDialog();
 
             this.Controls.AddRange(new Control[]
             {
